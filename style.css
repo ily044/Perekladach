@@ -1,0 +1,145 @@
+body {
+    font-family: "Inter", sans-serif;
+    background: linear-gradient(135deg, #3a3f58, #1f222d);
+    margin: 0;
+    padding: 0;
+    color: #fff;
+}
+
+.wrapper {
+    max-width: 600px;
+    margin: 50px auto;
+    text-align: center;
+}
+
+.title {
+    font-size: 48px;
+    margin-bottom: 40px;
+    font-weight: 600;
+}
+
+.card-block {
+    background: #ffffff15;
+    padding: 30px;
+    border-radius: 18px;
+    backdrop-filter: blur(6px);
+}
+
+.word-card {
+    background: #fff;
+    color: #222;
+    font-size: 42px;
+    padding: 25px;
+    border-radius: 20px;
+    margin-bottom: 25px;
+    box-shadow: 0 0 25px #00000040;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-btn {
+    background: none;
+    border: none;
+    color: #fff;
+    font-size: 45px;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+.nav-btn:hover {
+    transform: scale(1.15);
+}
+
+.progress {
+    font-size: 24px;
+}
+
+#answerInput {
+    width: 90%;
+    font-size: 28px;
+    margin-top: 20px;
+    padding: 12px;
+    border-radius: 14px;
+    border: none;
+}
+
+.check-btn {
+    width: 90%;
+    margin-top: 25px;
+    font-size: 30px;
+    background: #4b93ff;
+    border: none;
+    color: #fff;
+    padding: 14px;
+    border-radius: 14px;
+    cursor: pointer;
+    transition: 0.25s;
+}
+
+.check-btn:hover {
+    background: #3376db;
+    transform: scale(1.05);
+}
+
+.stats {
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.good {
+    color: #5eff78;
+    font-size: 28px;
+}
+
+.bad {
+    color: #ff5e5e;
+    font-size: 28px;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: #00000080;
+
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.modal-window {
+    background: #fff;
+    color: #222;
+    padding: 30px;
+    border-radius: 20px;
+    width: 350px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+.close-btn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 22px;
+    border: none;
+    background: #4b93ff;
+    color: white;
+    border-radius: 12px;
+    cursor: pointer;
+}
+
+.close-btn:hover {
+    background: #316bd1;
+}
