@@ -40,10 +40,8 @@ $("#checkBtn").click(function () {
         $("#wordBox").text(mixWords[index]);
         $("#step").text((index + 1) + " / 10");
     } else {
-        $("#finalScore").text("Ваш рівень: " + (right * 10) + "%");
-        if (win === true){ 
+        $("#finalScore").text("Ваш рівень: " + (right * 10) + "%"); 
         $("#overlay").fadeIn();
-        }
     }
 });
 
@@ -61,3 +59,4 @@ $("#closeModal").click(function () {
     $("#overlay").fadeOut();
 
 });
+
