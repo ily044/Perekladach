@@ -41,7 +41,9 @@ $("#checkBtn").click(function () {
         $("#step").text((index + 1) + " / 10");
     } else {
         $("#finalScore").text("Ваш рівень: " + (right * 10) + "%");
+        if (win === true){ 
         $("#overlay").fadeIn();
+        }
     }
 });
 
@@ -57,4 +59,5 @@ $("#next").click(function () {
 
 $("#closeModal").click(function () {
     $("#overlay").fadeOut();
+
 });
