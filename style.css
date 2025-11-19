@@ -120,8 +120,8 @@ body {
     padding: 30px;
     border-radius: 20px;
     width: 350px;
-
     margin: auto;
+    flex-direction: column;
     text-align: center;
 }
 
@@ -140,4 +140,5 @@ body {
     background: #316bd1;
 
 }
+
 
