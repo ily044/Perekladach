@@ -109,9 +109,7 @@ body {
     bottom: 0;
     background: #00000080;
 
-    display: none;
-    justify-content: center;
-    align-items: center;
+    margin: auto;
 }
 
 .modal-window {
@@ -140,5 +138,6 @@ body {
     background: #316bd1;
 
 }
+
 
 
