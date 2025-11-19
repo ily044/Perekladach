@@ -121,9 +121,7 @@ body {
     border-radius: 20px;
     width: 350px;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+    margin: auto;
     align-items: center;
 
     text-align: center;
@@ -142,4 +140,5 @@ body {
 
 .close-btn:hover {
     background: #316bd1;
+
 }
