@@ -108,7 +108,7 @@ body {
     right: 0;
     bottom: 0;
     background: #00000080;
-
+    display: none;
     margin: auto;
 }
 
@@ -138,6 +138,7 @@ body {
     background: #316bd1;
 
 }
+
 
 
 
